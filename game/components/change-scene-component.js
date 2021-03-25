@@ -1,19 +1,15 @@
-import Component from "../../engine/component.js"
-import SceneManager from "../../engine/scene-manager.js"
+import * as Engine from "../../engine/engine.js"
 
-class ChangeSceneComponent extends Component {
-  static name = "ChangeSceneComponent";
+class ChangeSceneComponent extends Engine.Component {
   constructor(gameObject) {
     super(gameObject);
-    this.ticks = 0;
   }
-  update() {
+  next(){
     this.ticks++;
-    if (this.ticks > 100) {
-      if (SceneManager.currentScene.name == "FirstScene")
-        SceneManager.changeScene("SecondScene");
-      else SceneManager.changeScene("DungSelect")
-    }
+    let currectSceneName = Engine.SceneManager.currentScene.name;
+      if (currentSceneName == "TitleScene")
+        Engine.SceneManager.changeScene("DungSelect");
+      else Engine.SceneManager.changeScene("TitleSelect")
   }
 
 }

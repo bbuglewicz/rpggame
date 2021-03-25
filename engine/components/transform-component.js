@@ -8,6 +8,8 @@ export default class TransformComponent extends Component {
         this.scaleX = 1;
         this.scaleY = 1;
         this.rotation = 0;
+
         this.children = [];
     }
+ 
 }
