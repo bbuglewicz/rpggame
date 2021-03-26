@@ -1,6 +1,8 @@
 export default {
     name: "pointer",
     components: [
-        {name: "KeyboardBumpComponent", args: [1]}
+      { name: "DrawGeometryComponent", args: ["white"] },
+      { name: "CircleGeometryComponent", args: [25] },
+      { name: "KeyboardBumpComponent", args: [1] }
     ]
-}
+  }

@@ -14,7 +14,5 @@ export default  class SceneManager {
     let scene = Scene.deserialize(proposedScene, SceneManager.allComponents, SceneManager.allPrefabs);  //Deserialize the scene definition
     SceneManager.currentScene = scene;
     scene.callMethod("start")
-
-
   }
 }

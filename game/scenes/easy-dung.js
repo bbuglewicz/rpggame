@@ -4,9 +4,9 @@ export default {
         {gameObject: {name: "MainCamera", components: [{name: "WorldCameraComponent"}]}},
         {gameObject: {name: "ScreenCamera", components: [{name: "ScreenCameraComponent"}], 
             children:[
-                    {gameObject: {name: "EasyText", components: [{name: "ScreenTextComponent", args: ["Easy", {alignment: "center"}]}]}, x: 215, y: 250},
-                    {gameObject: {name: "MedText", components: [{name: "ScreenTextComponent", args: ["Medium", {alignment: "center"}]}]}, x: 770, y: 250},
-                    {gameObject: {name: "HardText", components: [{name: "ScreenTextComponent", args: ["Hard", {alignment: "center"}]}]}, x: 1320, y: 250}             
+                    {gameObject: {name: "EasyText", components: [{name: "ScreenTextComponent", args: ["1", {alignment: "center"}]}]}, x: 215, y: 250},
+                    {gameObject: {name: "MedText", components: [{name: "ScreenTextComponent", args: ["2", {alignment: "center"}]}]}, x: 770, y: 250},
+                    {gameObject: {name: "HardText", components: [{name: "ScreenTextComponent", args: ["3", {alignment: "center"}]}]}, x: 1320, y: 250}             
                 ]
             }
         },
