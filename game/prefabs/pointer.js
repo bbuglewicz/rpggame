@@ -5,4 +5,4 @@ export default {
       { name: "CircleGeometryComponent", args: [25] },
       { name: "KeyboardBumpComponent", args: [1] }
     ]
-  }
+}

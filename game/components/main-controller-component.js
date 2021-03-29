@@ -10,8 +10,8 @@ export default class MainControllerComponent extends Engine.Component {
     this.pointer = SceneManager.currentScene.getGameObject("pointer");
   }
   update() {
-    this.pointerX = this.pointer.x;
-
+    //this.pointerX = this.pointer.x;
+    
     if(this.pointerX = -550){
       if(SceneManager.currentScene.name == "DungSelect") return SceneManager.changeScene("EasyDung")
     }

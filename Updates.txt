@@ -1,0 +1,7 @@
+1. Change keyboard-bump-component for just the pointer prefab
+2. Make a keyboard-bump-component for the player
+3. Change main-controller-component for just the pointer prefab
+4. Make a main-controller-component for the player
+5. In engine, change the drawing components to have a filled and an outline for each shape
+6. The rooms need to be 50x50 squares
+7. The rooms will have children of halls to go to different rooms
