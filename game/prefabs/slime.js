@@ -1,9 +1,8 @@
 export default {
-    name: "player",
+    name: "slime",
     components: [
-        { name: "DrawGeometryComponent", args: ["white"] },
+        { name: "DrawGeometryComponent", args: ["green"] },
         { name: "CircleGeometryComponent", args: [50] },
         //{ name: "", args: [1] }
-    ],
-    args: [10, 10]
+    ]
 }

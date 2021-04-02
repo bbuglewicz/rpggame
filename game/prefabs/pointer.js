@@ -3,6 +3,6 @@ export default {
     components: [
       { name: "DrawGeometryComponent", args: ["white"] },
       { name: "CircleGeometryComponent", args: [25] },
-      { name: "KeyboardBumpComponent", args: [1] }
+      { name: "PointerSelectDiffComponent", args: [1] }
     ]
 }

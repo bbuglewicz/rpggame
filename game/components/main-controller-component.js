@@ -13,13 +13,13 @@ export default class MainControllerComponent extends Engine.Component {
     //this.pointerX = this.pointer.x;
     
     if(this.pointerX = -550){
-      if(SceneManager.currentScene.name == "DungSelect") return SceneManager.changeScene("EasyDung")
+      //if(SceneManager.currentScene.name == "DungSelect") return SceneManager.changeScene("EasyDung")
     }
     if(this.pointerX = 0){
-        if(SceneManager.currentScene.name == "DungSelect") return SceneManager.changeScene("MedDung")
+        //if(SceneManager.currentScene.name == "DungSelect") return SceneManager.changeScene("MedDung")
     }
     if(this.pointerX < 550){
-        if(SceneManager.currentScene.name == "DungSelect") return SceneManager.changeScene("HardDung")
+        //if(SceneManager.currentScene.name == "DungSelect") return SceneManager.changeScene("HardDung")
     }
   }
 }
