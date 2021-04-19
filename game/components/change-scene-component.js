@@ -7,7 +7,8 @@ class ChangeSceneComponent extends Engine.Component {
   next(){
     this.ticks++;
     let currectSceneName = Engine.SceneManager.currentScene.name;
-      if (currentSceneName == "TitleScene")
+
+    if (currentSceneName == "TitleScene")
         Engine.SceneManager.changeScene("DungSelect");
       else Engine.SceneManager.changeScene("TitleSelect")
   }

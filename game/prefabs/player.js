@@ -3,7 +3,6 @@ export default {
     components: [
         { name: "DrawGeometryComponent", args: ["white"] },
         { name: "CircleGeometryComponent", args: [50] },
-        //{ name: "", args: [1] }
-    ],
-    args: [10, 10]
+        {name: "StatsComponent", args:[100, 15, 10, 5]}
+    ]
 }
