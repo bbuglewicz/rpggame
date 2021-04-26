@@ -1,8 +1,8 @@
 import * as Engine from "../../engine/engine.js"
-import * as GameScenes from "./game/scenes/game-scenes.js"
-import * as GamePrefabs from "./game/prefabs/game-prefabs.js"
+import * as GameScenes from "./rpg/scenes/game-scenes.js"
+import * as GamePrefabs from "./rpg/prefabs/game-prefabs.js"
 import * as EngineComponents from "../../engine/components/engine-components.js"
-import * as GameComponents from "./game/components/game-components.js"
+import * as GameComponents from "./rpg/components/game-components.js"
 
 function boot(mainSceneName) {
   let canvas = document.getElementById("canv");
